@@ -1,0 +1,81 @@
+table {
+    padding: 10px;
+    border: 2px solid orangered;
+    border-radius: 10px;
+}
+th {
+    border: 2px solid orangered;
+    border-radius: 5px;
+    
+}
+td {
+    border: 1px solid blue;
+    border-radius: 5px;
+    width: 100px;
+    padding: 2px;
+}
+td:hover {
+    border: 1px solid green;
+}
+td input {
+    display:none;
+    width: 100px;
+    color: #871700;
+    font-weight: bold;
+}
+td a {
+    background-color: white;
+    color: black;
+}
+td input[type="submit"]{
+    display:block;
+    width: 80px;
+    height: 24px;
+    margin: auto;
+    border: 1px solid transparent;
+    border-radius: 5px;
+    color: white;
+}
+td input[type="submit"]:hover{
+    background-color: rgba(150, 150, 0, 0.8);
+}
+.update {
+    background-color: rgba(0, 150, 0, 0.8);
+}
+.delete {
+    background-color: rgba(255, 0, 0, 0.8);
+}
+.button {
+    border: none;
+}
+.button:hover {
+    border: none;
+}
+
+#insert_form {
+    display: none;
+    margin-top: 5px;
+}
+#insert_form td {
+    border: none;
+}
+#insert_form input{
+    display:block;
+}
+#insert_form input[type="submit"] {
+    background-color: rgba(255, 69, 0, 0.8);
+}
+#insert_form input[type="submit"]:hover {
+    background-color: rgba(150, 150, 0, 0.8);
+}
+
+#insert {
+    background-color: grey;
+    width: 20px;
+    height: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 0px 0px 5px 5px;
+    user-select: none;
+}
