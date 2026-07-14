@@ -27,7 +27,7 @@ This project provides a simple web-based graphical user interface (GUI) to view,
     ```
     For Linux:
     ```bash
-    cd /opt/lampp/
+    cd /opt/lampp/htdocs/
     ```
    Clone this repository: 
    ```bash
@@ -51,3 +51,8 @@ This project provides a simple web-based graphical user interface (GUI) to view,
     http://localhost/<repository_name>/
     ```
     Hence now you can use.
+
+
+## License
+
+This project is licensed under the GNU Affero General Public License v3.0 (AGPL-3.0). See the `LICENSE` file for details.
